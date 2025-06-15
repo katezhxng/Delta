@@ -8,7 +8,7 @@
 
 // Function to perform Run-Length Encoding (RLE)
 
-// TOFIX
+
 int rle(const int *input, int len, int *output) {
    int i, count;
    int out_index = 0;
@@ -33,7 +33,6 @@ int rle(const int *input, int len, int *output) {
 
 
 // Function to perform Run-Length Decoding (RLD)
-// 10/27 HW below
 
 void rld(const int *compressed_data, int size_compressed_data, int * decompressed_data) {
     int i = 0, j = 0;
@@ -54,7 +53,6 @@ void rld(const int *compressed_data, int size_compressed_data, int * decompresse
     }
 }
 
-// 11/3 HW: write a routine to do quantization. The input will be 1) input floats 2) error (or number of buckets).
 // The output will be a bunch of bucket numbers.
 
 
